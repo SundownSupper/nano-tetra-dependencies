@@ -1,0 +1,142 @@
+
+#!/bin/bash
+cd 
+cd ..
+
+opkg update
+
+cd
+cd ..
+
+cd /pineapple/modules/Deauth/scripts
+
+bash -x dependencies.sh install sd
+
+echo "downloading depends"
+
+cd 
+cd ..
+
+cd /pineapple/modules/DNSspoof/scripts
+
+bash -x dependencies.sh install sd
+echo "downloading depends"
+
+cd
+cd ..
+
+cd /pineapple/modules/dump1090/scripts
+
+bash -x dependencies.sh install sd
+echo "downloading depends"
+
+cd
+cd ..
+
+cd
+
+cd /pineapple/modules/KeyManager/scripts
+bash -x dependencies.sh install sd
+echo "downloading depends"
+
+cd
+cd ..
+
+cd /pineapple/modules/ngrep/scripts
+bash -x dependencies.sh install sd
+echo "downloading depends"
+
+
+cd
+cd ..
+
+cd /pineapple/modules/nmap/scripts
+
+bash -x dependencies.sh install sd
+echo "downloading depends"
+
+cd 
+cd ..
+
+cd /pineapple/modules/Occupineapple/scripts
+
+bash -x dependencies.sh install sd
+echo "downloading depends"
+
+cd 
+cd ..
+cd /pineapple/modules/OnlineHashCrack/scripts
+
+bash -x dependencies.sh install sd
+echo "downloading depends"
+
+cd 
+cd ..
+
+cd /pineapple/modules/p0f/scripts
+
+bash -x dependencies.sh install sd
+echo "downloading depends"
+
+cd
+cd ..
+
+cd /pineapple/modules/Responder/scripts
+
+bash -x dependencies.sh install sd
+echo "downloading depends"
+
+cd
+cd ..
+
+
+cd /pineapple/modules/SiteSurvey/scripts
+
+bash -x dependencies.sh install sd
+echo "downloading depends"
+
+cd
+cd ..
+
+
+cd /pineapple/modules/tcpdump/scripts
+
+bash -x dependencies.sh install sd
+echo "downloading depends"
+
+cd
+cd ..
+
+cd /pineapple/modules/CursedScreech/includes/scripts
+
+bash -x dependencies.sh install sd
+
+cd
+cd ..
+
+
+
+#### OPTIONAL MODULES THAT WERE ADDED ON ####
+
+cd /pineapple/modules/BessideNG/scripts
+
+bash -x dependencies.sh install sd
+echo "installing depends"
+
+cd
+
+cd ..
+
+cd /pineapple/modules/PMKID/scripts
+bash -x dependencies.sh install sd
+
+echo "installing depends"
+
+cd 
+
+cd ..
+
+
+ 
+
+echo "downloading complete"
