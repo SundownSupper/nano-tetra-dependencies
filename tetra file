@@ -1,6 +1,4 @@
-#### if you are using the wifi pineapple nano ####
-#### bash -x dependencies.sh install sd ####
-#### or else you will clog up your internal storage ####
+
 
 
 #!/bin/bash
